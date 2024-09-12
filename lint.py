@@ -2,7 +2,7 @@ import sys
 
 from pylint import lint  
 
-THRESHOLD = 9  
+THRESHOLD = 3 
 
 run = lint.Run(["fibo.py"], do_exit=False) 
 
