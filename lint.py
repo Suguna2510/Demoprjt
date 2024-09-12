@@ -4,7 +4,7 @@ from pylint import lint
 
 THRESHOLD = 3 
 
-run = lint.Run(["fibo.py"], do_exit=False) 
+run = lint.Run(["fibo.py"])
 
 score = run.linter.stats["global_note"]  
 
