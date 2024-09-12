@@ -1,4 +1,4 @@
-num = int(input('Enter number of terms: '))
+num = 5
 
 
 a, b = 0, 1
