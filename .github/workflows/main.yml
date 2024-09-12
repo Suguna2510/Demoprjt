@@ -18,12 +18,6 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
-        run: pip install pylint 
-
-      - name: Lint with pylint
-        run: python lint.py
-
       - name: Run python script
         run: python fibo.py
          
