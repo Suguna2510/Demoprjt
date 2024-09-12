@@ -1,5 +1,5 @@
-a=int(input("Enter the number: "))
-b=int(input("Enter the number: "))
+a=6
+b=7
 
 c=a+b
 
